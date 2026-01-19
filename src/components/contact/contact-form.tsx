@@ -79,7 +79,7 @@ export function ContactForm() {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({
-          "form-name": "contact",
+          "form-name": "portfolio-contact",
           ...data,
           honeypot, // Include honeypot in submission
         }),
@@ -149,10 +149,10 @@ export function ContactForm() {
         noValidate
         aria-busy={isSubmitting}
         data-netlify="true"
-        name="contact"
+        name="portfolio-contact"
         method="POST"
       >
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" value="portfolio-contact" />
         <input type="hidden" name="honeypot" />
 
         <div className="space-y-2">
