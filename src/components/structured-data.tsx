@@ -19,10 +19,7 @@ export function generatePersonSchema(): Record<string, unknown> {
     jobTitle: "B.Tech CSE Student & AI Developer",
     description:
       "B.Tech CSE student at RGUKT Nuzvid specializing in AI/ML, full-stack development, and building innovative solutions. Hackathon winner with experience in deep learning, web scraping, and data science.",
-    sameAs: [
-      "https://github.com/raghavendra-24",
-      "https://linkedin.com/in/raghavendrapalagani",
-    ],
+    sameAs: ["https://github.com/raghavendra-24", "https://linkedin.com/in/raghavendrapalagani"],
     knowsAbout: [
       "Machine Learning",
       "Deep Learning",

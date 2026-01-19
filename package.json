@@ -33,10 +33,10 @@
     "serve": "pnpm dlx serve out",
     "prepare": "husky",
     "analyze": "next experimental-analyze",
-    "resend:status": "tsx scripts/ops/resend-domain-manager.ts status",
-    "resend:records": "tsx scripts/ops/resend-domain-manager.ts records",
-    "resend:verify": "tsx scripts/ops/resend-domain-manager.ts verify",
-    "resend:sync-dns": "tsx scripts/ops/resend-domain-manager.ts sync-dns"
+    "resend:status": "echo 'Resend manager removed'",
+    "resend:records": "echo 'Resend manager removed'",
+    "resend:verify": "echo 'Resend manager removed'",
+    "resend:sync-dns": "echo 'Resend manager removed'"
   },
   "dependencies": {
     "@aws-sdk/client-ssm": "^3.971.0",

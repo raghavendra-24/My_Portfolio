@@ -25,7 +25,8 @@ export function About() {
             Building Intelligent Solutions with <span className="text-primary">AI & Data</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Aspiring AI/ML Engineer with proven expertise in deep learning, competitive programming, and developing production-ready applications
+            Aspiring AI/ML Engineer with proven expertise in deep learning, competitive programming,
+            and developing production-ready applications
           </p>
         </div>
 
@@ -38,7 +39,11 @@ export function About() {
               <h3 className="text-2xl font-semibold">Background</h3>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              Computer Science student at RGUKT Nuzvid with hands-on experience in AI/ML, web development, and data science. I&apos;ve built award-winning platforms like Study Genie and JobSetu, and ranked in the Top 2% nationally in NPTEL Cloud Computing. My problem-solving skills are backed by 180+ LeetCode solutions with a 1600+ contest rating.
+              Computer Science student at RGUKT Nuzvid with hands-on experience in AI/ML, web
+              development, and data science. I&apos;ve built award-winning platforms like Study
+              Genie and JobSetu, and ranked in the Top 2% nationally in NPTEL Cloud Computing. My
+              problem-solving skills are backed by 180+ LeetCode solutions with a 1600+ contest
+              rating.
             </p>
           </Card>
 

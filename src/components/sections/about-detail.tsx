@@ -6,7 +6,7 @@ import { achievements } from "@/data/achievements";
 import { education } from "@/data/education";
 import { experiences } from "@/data/experience";
 import { hobbies } from "@/data/hobbies";
-import { skillCategories, codingProfiles } from "@/data/skills";
+import { codingProfiles, skillCategories } from "@/data/skills";
 
 /**
  * Render the About Detail page content.
@@ -60,16 +60,21 @@ export function AboutDetail() {
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
               <p>
-                Computer Science & Engineering student at RGUKT Nuzvid focused on Machine Learning, Computer Vision, and Deep Learning. CGPA: 8.76.
+                Computer Science & Engineering student at RGUKT Nuzvid focused on Machine Learning,
+                Computer Vision, and Deep Learning. CGPA: 8.76.
               </p>
               <p>
-                Strong algorithmic foundation with 230+ DSA problems solved across LeetCode and GeeksforGeeks, LeetCode rating 1600+, and competitive programming experience.
+                Strong algorithmic foundation with 230+ DSA problems solved across LeetCode and
+                GeeksforGeeks, LeetCode rating 1600+, and competitive programming experience.
               </p>
               <p>
-                Built applied ML systems including Study Genie (collaborative AI learning platform), JobSetu (AI-driven mock interview system), and an AI-assisted radiology diagnosis tool.
+                Built applied ML systems including Study Genie (collaborative AI learning platform),
+                JobSetu (AI-driven mock interview system), and an AI-assisted radiology diagnosis
+                tool.
               </p>
               <p>
-                Recognized with 2nd Runner-Up positions at Peekuthon and HackSprint hackathons for practical ML-driven solutions.
+                Recognized with 2nd Runner-Up positions at Peekuthon and HackSprint hackathons for
+                practical ML-driven solutions.
               </p>
             </div>
           </Card>
@@ -98,7 +103,11 @@ export function AboutDetail() {
                       <p className="text-sm text-muted-foreground mb-3">@{profile.username}</p>
                       <div className="flex flex-wrap gap-2">
                         {profile.stats.map((stat) => (
-                          <Badge key={stat} variant="outline" className="bg-yellow-500/10 text-yellow-600">
+                          <Badge
+                            key={stat}
+                            variant="outline"
+                            className="bg-yellow-500/10 text-yellow-600"
+                          >
                             {stat}
                           </Badge>
                         ))}
@@ -196,7 +205,7 @@ export function AboutDetail() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {achievements.map((achievement) => {
               const cardContent = (
-                <div className="flex items-start gap-4">
+                <div key={achievement.title} className="flex items-start gap-4">
                   <span className="text-4xl">{achievement.icon}</span>
                   <div>
                     <h3 className="font-semibold mb-1">{achievement.title}</h3>

@@ -155,7 +155,6 @@ export function ContactForm() {
         <input type="hidden" name="form-name" value="contact" />
         <input type="hidden" name="honeypot" />
 
-
         <div className="space-y-2">
           <Label htmlFor={fieldIds.name}>Name</Label>
           <Input

@@ -4,7 +4,8 @@ import Link from "next/link";
 
 export function Hero() {
   // Replace this with your actual Google Drive resume link
-  const resumeLink = "https://drive.google.com/file/d/1giB8zW3DcwHRLxFHoH-0KCmae6ld3kkz/view?usp=drive_link";
+  const resumeLink =
+    "https://drive.google.com/file/d/1giB8zW3DcwHRLxFHoH-0KCmae6ld3kkz/view?usp=drive_link";
 
   return (
     <section className="relative min-h-[90vh] flex items-center">
@@ -33,7 +34,8 @@ export function Hero() {
               Hi, I&apos;m Raghavendra Raju
             </h1>
             <p className="mt-6 text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl">
-              Machine Learning Engineer (CV/DL) • Deep Learning Practitioner • 230+ DSA Problems • 2× Hackathon Runner-Up
+              Machine Learning Engineer (CV/DL) • Deep Learning Practitioner • 230+ DSA Problems •
+              2× Hackathon Runner-Up
             </p>
 
             {/* Email & LinkedIn */}
