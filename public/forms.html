@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synthetics</title>
+</head>
+<body>
+    <!-- 
+      This file exists solely to help Netlify's build bots detect the contact form.
+      It is not shown to users.
+      The fields MUST match the React component exactly.
+    -->
+    <form name="contact" data-netlify="true" netlify-honeypot="honeypot" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+        <input type="text" name="honeypot" />
+        <input type="hidden" name="form-name" value="contact" />
+    </form>
+</body>
+</html>
