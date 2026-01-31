@@ -69,8 +69,8 @@ export function AboutDetail() {
               </p>
               <p>
                 Built applied ML systems including Study Genie (collaborative AI learning platform),
-                JobSetu (AI-driven mock interview system), and an AI-assisted radiology diagnosis
-                tool.
+                JobSetu (AI-driven mock interview system), and a real-time person detection system
+                with MLOps monitoring.
               </p>
               <p>
                 Recognized with 2nd Runner-Up positions at Peekuthon and HackSprint hackathons for

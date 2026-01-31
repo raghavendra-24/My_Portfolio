@@ -55,26 +55,30 @@ export const projectsData = projectsSchema.parse([
   },
   {
     id: "3",
-    title: "AI-Assisted Radiology Diagnosis",
+    title: "Real-Time Person Detection with MLOps Monitoring",
     description:
-      "A medical imaging AI system featuring ResNet-50 models for X-ray classification and MRI scan analysis. " +
-      "Applied YOLO for precise brain tumor detection on MRI scans. Used Grad-CAM to generate explainable heatmaps, " +
-      "improving clinical trust. Includes a chatbot interface enabling scan upload and interactive diagnostic queries.",
-    image: "/projects/study-genie.png",
+      "A deployable computer vision system for low-latency people detection using YOLOv8-Nano trained on CrowdHuman dataset, " +
+      "achieving ~66% mAP@50 with ~8.5 ms ONNX inference latency (~117 FPS). Features statistical input drift monitoring " +
+      "based on brightness and contrast distributions to detect environmental shifts. FastAPI backend provides WebSocket-based " +
+      "real-time inference and Prometheus metrics, while React frontend using WebRTC enables browser-based webcam analysis. " +
+      "Deployed via CI/CD on Render (backend) and Vercel (frontend), with model artifacts loaded from HuggingFace at runtime.",
+    image: "/projects/realtime-detection.png",
     technologies: [
-      "Python",
-      "ResNet-50",
-      "YOLO",
-      "Grad-CAM",
-      "Deep Learning",
-      "Medical Imaging",
-      "TensorFlow",
-      "Explainable AI",
-      "Chatbot",
+      "YOLOv8",
+      "ONNX",
+      "FastAPI",
+      "WebSocket",
+      "Prometheus",
+      "React",
+      "WebRTC",
+      "MLOps",
+      "CI/CD",
+      "HuggingFace",
     ],
     category: "AI & Machine Learning",
     links: {
-      github: "https://github.com/raghavendra-24",
+      github: "https://github.com/raghavendra-24/realtime-detection-mlops",
+      live: "https://realtime-detection-mlops.vercel.app/",
     },
     featured: true,
   },
